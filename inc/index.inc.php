@@ -2,7 +2,8 @@
         
   <!-- SLIDER-BOX -->
   <section class="slider-box">
-    <div class="flexslider">
+    <div class="slider-wrap">
+      <div class="flexslider">
       <ul class="slides">
         <li>
     	    <img src="img/scene1.jpg" alt=" " width="930" height="320">
@@ -39,6 +40,7 @@
       <button class="flex-prev">&#60;</button>
       <button class="flex-next">&#62;</button>
       
+      </div>
     </div>
   </section> 
   <!-- END SLIDER-BOX --> 
@@ -53,7 +55,9 @@
       <section class="index-about ssm-12 sm-12 md-8 text-left ">
         <h3 class="sectn-name">About iPadMasters</h3>
         <article>
-          <img src="img/about.png" alt="photo" width="249" height="86">
+          <div class="img-wrap">
+            <img src="img/about.png" alt="photo" width="249" height="86">
+          </div>
           <h4>All About iPad Masters</h4>
           <p>Lorem ipsum dolor sit amet, consec&shy;tetur adipiscing elit. Praesent tempor facilisis congue. Lorem sum dolor sit amet, consectetur adippend...</p>
           <a href="#" class="btn-link">Learn More</a>
@@ -63,7 +67,9 @@
       <section class="index-blog ssm-12 sm-12 md-8 text-left ">
         <h3 class="sectn-name">Our Blog Updates</h3>
         <article>
-          <img src="img/blog.png" alt="photo" width="249" height="86">
+          <div class="img-wrap">
+            <img src="img/blog.png" alt="photo" width="249" height="86">
+          </div>
           <h4>My First Website Creation</h4>
           <p class="post-date">Posted in <a href="#">Web Design</a> on April 13th, 2010</p>
           <p>Lorem ipsum dolor sit amet, consec&shy;tetur adipiscing elit. Praesent tempor facilisis congue. Suspend...</p>

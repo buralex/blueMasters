@@ -14,7 +14,10 @@
                 <h1>Creation of Beaches</h1>
                 
                 <p class="posted">Posted in: <a href="#">Photography</a> on Tuesday, April 12th, 2010</p>
-                <img class="img-resp frame"  src="img/blog/blog-1.jpg" alt="beach" width="589" height="144">
+                <div class="img-blog-wrap">
+                  <img class="img-resp frame"  src="img/blog/blog-1.jpg" alt="beach" width="589" height="144">
+                </div>  
+                
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam et risus non arcu porttitor feugi
                   at in at neque. In hac habitasse platea dictumst. Proin pretium neque at turpis fermentum de
                   aliquet. Ut risus nisi, scelerisque in convallis et, volutpat malesuada elit. Ut nulla libero, condi
@@ -37,7 +40,10 @@
                 <h1>Brazilian Vacations</h1>
                 
                 <p class="posted">Posted in: <a href="#">Photography</a> on Tuesday, April 12th, 2010</p>
-                <img class="img-resp frame"  src="img/blog/blog-2.jpg" alt="beach" width="589" height="144">
+                <div class="img-blog-wrap">
+                  <img class="img-resp frame"  src="img/blog/blog-2.jpg" alt="beach" width="589" height="144">
+                </div>
+                
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam et risus non arcu porttitor feugi
                   at in at neque. In hac habitasse platea dictumst. Proin pretium neque at turpis fermentum de
                   aliquet. Ut risus nisi, scelerisque in convallis et, volutpat malesuada elit. Ut nulla libero, condi
@@ -60,7 +66,10 @@
                 <h1>Jamaica Secrets</h1>
                 
                 <p class="posted">Posted in: <a href="#">Photography</a> on Tuesday, April 12th, 2010</p>
-                <img class="img-resp frame"  src="img/blog/blog-3.jpg" alt="beach" width="589" height="144">
+                <div class="img-blog-wrap">
+                  <img class="img-resp frame"  src="img/blog/blog-3.jpg" alt="beach" width="589" height="144">
+                </div> 
+                
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam et risus non arcu porttitor feugi
                   at in at neque. In hac habitasse platea dictumst. Proin pretium neque at turpis fermentum de
                   aliquet. Ut risus nisi, scelerisque in convallis et, volutpat malesuada elit. Ut nulla libero, condi
@@ -108,7 +117,9 @@
               <div class="welcome">
                 <h3>Welcome Guest!</h3>
                 <div class="welcome__text">
-                  <img class="img-resp" src="img/sidebar-blog-main.png" title="Cross-Browser" alt="Cross-Browser" width="222" height="98">
+                  <div class="sidebar-blog-main">
+                    <img class="img-resp " src="img/sidebar-blog-main.png" title="Cross-Browser" alt="Cross-Browser" width="222" height="98">
+                  </div>
                   <p>Lorem ipsum dolor sit amet, consec&shy;tetur adipiscing elit. Nullam et risus non arcu porttitor feugi at in at neque. In hac habitasse platea dictumst. Proin pretium.</p>
                 </div>
               </div>

@@ -465,8 +465,15 @@ h4 {
 .index-about article,
 .index-blog article {
   padding: 20px; }
+  .index-about article .img-wrap,
+  .index-blog article .img-wrap {
+    position: relative;
+    padding-bottom: 34.78260869565217%; }
   .index-about article img,
   .index-blog article img {
+    position: absolute;
+    top: 0;
+    left: 0;
     height: auto;
     width: 100%; }
   .index-about article h4,
@@ -621,7 +628,18 @@ h4 {
 .content__about h2, .content__blog h2, .content__contact h2 {
   border-bottom: 1px dotted #84a1af;
   margin-bottom: 20px; }
+.content__about .img-about-wrap, .content__blog .img-about-wrap, .content__contact .img-about-wrap {
+  position: relative;
+  padding-bottom: 49.18300653594771%; }
+.content__about .img-blog-wrap, .content__blog .img-blog-wrap, .content__contact .img-blog-wrap {
+  position: relative;
+  padding-bottom: 25.15337423312883%; }
 .content__about img.frame, .content__blog img.frame, .content__contact img.frame {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  display: block;
   border: 4px solid #eef0f5;
   box-shadow: 0 0 0 1px #ced1da; }
 .content__about p, .content__blog p, .content__contact p {
@@ -666,6 +684,14 @@ h4 {
 
 .welcome h3::before {
   background-position: -4px 0; }
+.welcome .sidebar-blog-main {
+  position: relative;
+  padding-bottom: 39.73799126637555%; }
+  .welcome .sidebar-blog-main img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%; }
 
 .welcome__text, .sidebar-info__text {
   font: 1.2rem/1.4 Verdana, Helvetica, sans-serif;
@@ -826,17 +852,19 @@ div.panel.show {
   padding: 0 15px; }
 
 .portfolio-gallery ul > li > a {
-  max-height: 165px;
-  max-width: 190px;
   border: 1px solid #ced1da;
-  display: inline-block;
+  display: block;
   overflow: hidden;
-  position: relative; }
+  position: relative;
+  padding-bottom: 87.23404255319149%; }
   .portfolio-gallery ul > li > a img {
     border: 4px solid #eef0f5;
     width: 100%;
     height: auto;
-    display: block; }
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0; }
     .portfolio-gallery ul > li > a img:hover {
       border: 4px solid #bec6d9; }
 
@@ -1060,6 +1088,12 @@ html[xmlns] .flexslider .slides {
   display: block; }
 
 /*---------------------------- custom styles ---------------------------------*/
+.slider-wrap {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%; }
+
 .flexslider .slides > li {
   position: relative; }
 
@@ -1083,7 +1117,9 @@ html[xmlns] .flexslider .slides {
   border: 10px solid #fff;
   margin: 20px auto 0 auto;
   position: relative;
-  overflow: hidden; }
+  overflow: hidden;
+  position: relative;
+  padding-bottom: 33%; }
 
 .slides {
   margin: 0;
@@ -1158,7 +1194,7 @@ html[xmlns] .flexslider .slides {
 
 /* -----------------------------------------------------------------------------
 
-                               SLIDER-NEW
+                                CLASSES
   
 ----------------------------------------------------------------------------- */
 

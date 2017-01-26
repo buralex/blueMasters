@@ -14,8 +14,8 @@ $photos = select16Items($num);
     	$tn= $item['thumbName'];
 	
     	echo <<<EOT
-            <li class="xs-12 ssm-8 sm-6" data-src="img/portfolio/$fn" data-sub-html="<h4>$pn</h4><p>$pc</p>">
-                <a href="#">
+            <li class="xs-12 ssm-8 sm-6 " data-src="img/portfolio/$fn" data-sub-html="<h4>$pn</h4><p>$pc</p>">
+                <a href="#" class="img-portfolio-wrap">
                     <img class="" src="img/portfolio/thumbs/$tn">
                 </a>
             </li>

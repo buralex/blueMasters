@@ -6,7 +6,10 @@
     <div class="xs-24 sm-17 content__about-wrap equal">
       <div class="content__about ">
         <h2>About</h2>
-        <img class="img-resp frame"  src="img/about-scene.jpg" alt="beach" width="589" height="286">
+        <div class="img-about-wrap">
+          <img class="img-resp frame"  src="img/about-scene.jpg" alt="beach" width="589" height="286">
+        </div>
+        
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam et risus non arcu porttitor feugi
           at in at neque. In hac habitasse platea dictumst. Proin pretium neque at turpis fermentum de
           aliquet. Ut risus nisi, scelerisque in convallis et, volutpat malesuada elit. Ut nulla libero, condi
@@ -56,7 +59,9 @@
         <div class="welcome">
           <h3>Welcome Guest!</h3>
           <div class="welcome__text">
-            <img class="img-resp frame" src="img/sidebar-blog-main.png" title="Cross-Browser" alt="Cross-Browser" width="222" height="98">
+            <div class="sidebar-blog-main">
+              <img class="img-resp " src="img/sidebar-blog-main.png" title="Cross-Browser" alt="Cross-Browser" width="222" height="98">
+            </div>
             <p>Lorem ipsum dolor sit amet, consec&shy;tetur adipiscing elit. Nullam et risus non arcu porttitor feugi at in at neque. In hac habitasse platea dictumst. Proin pretium.</p>
           </div>
         </div>
