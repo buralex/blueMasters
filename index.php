@@ -137,23 +137,17 @@
           thumbnail: false
         });
         
-        var dropNav = dropDownNav;
-        dropNav(".drop-btn__nav", ".main-nav", "dropped");
+        dropDownNav(".drop-btn__nav", ".main-nav", "dropped");
         
-        var accord = accordion;
-        accord("button.accordion", "active", "div.panel", "show");
+        accordion("button.accordion", "active", "div.panel", "show");
         
-        var stickFoot = stickyFooter;
-        stickFoot(".footer-container", ".wrapper");
+        stickyFooter(".footer-container", ".wrapper");
         
-        var indexCont = setEqualHeight;
-        indexCont(".row-index > section");  // for index.inc.php
+        setEqualHeight(".row-index > section");  // for index.inc.php
         
-        var aboutCont = setEqualHeight;
-        aboutCont(".content > div.equal");  // for about.php
+        setEqualHeight(".content > div.equal");  // for about.php
          
-        var upperFooter = setEqualHeight;
-        upperFooter(".upper-footer .main-container > div"); // for footer
+        setEqualHeight(".upper-footer .main-container > div"); // for footer
         
         $(".flexslider").flexslider({
           animation: "slide",
